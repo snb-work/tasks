@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Application Properties (except main application.properties)
+application-*.properties
+!application.properties
+
+# IDE specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build files
+target/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+logs/
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
